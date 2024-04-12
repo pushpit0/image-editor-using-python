@@ -1,9 +1,3 @@
-#-------------------------------------------------------------#
-# __name__ = "BasicImageEditor"
-# __author__ = "Puspendra singh chauhan"
-# __version__ = "1.0"
-# __email__ = "pushpitsingh43@gmail.com"
-# __status__ = "Development_in_progress"
 # ---------------------------------------------------------------#
 
 
@@ -373,15 +367,6 @@ class ImageEditorGuiClass(object):
         self.okButton.setText(_translate("InputDialog", "OK", None))
 
 
-#178  
-#imageProcessingFns.py
-#@@ -0,0 +1,178 @@
-# ---------------------------------------------------------------#
-# __name__ = "BasicImageEditor_Assignment"
-# __author__ = "Pushpendra singh"
-# __version__ = "1.0"
-# __email__ = "pushpitsingh43@gmail.com"
-# __status__ = "Development_in_progress"
 # ---------------------------------------------------------------#
 
 # All array operations are performed using numpy library
@@ -553,15 +538,6 @@ class ImageProcessorClass(object):
 
         #  return the computed image
         return output
- #453  
-#main.py
-#@@ -0,0 +1,453 @@
-# ---------------------------------------------------------------#
-# __name__ = "BasicImageEditor_EE610_Assignment"
-# __author__ = "Shyama P"
-# __version__ = "1.0"
-# __email__ = "183079031@iitb.ac.in"
-# __status__ = "Development"
 # ---------------------------------------------------------------#
 
 # main.py contains the code for initializing and running the code for GUI
@@ -578,7 +554,7 @@ import numpy as np
 import  matplotlib.pyplot as plt
 
 # The GUI structure definition is provided in gui.py
-from PyQt5 import *   ######################################little chane for pyqt5 here was gui
+from PyQt5 import *                                           #little change for pyqt5 here was gui
 # Image processing logic is defined in imageProcessingFns.py
 from PIL import imageProcessing as ip 
 
