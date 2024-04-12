@@ -1,12 +1,7 @@
- #178  
-#imageProcessingFns.py
-#@@ -0,0 +1,178 @@
-# ---------------------------------------------------------------#
-# __name__ = "BasicImageEditor_Assignment"
+----------------------------------------------#
+# __name__ = "BasicImageEditor"
 # __author__ = "Pushpendra singh"
-# __version__ = "1.0"
 # __email__ = "pushpitsingh43@gmail.com"
-# __status__ = "Development_in_progress"
 # ---------------------------------------------------------------#
 
 # All array operations are performed using numpy library
@@ -178,15 +173,7 @@ class ImageProcessorClass(object):
 
         #  return the computed image
         return output
- #453  
-#main.py
-#@@ -0,0 +1,453 @@
-# ---------------------------------------------------------------#
-# __name__ = "BasicImageEditor_EE610_Assignment"
-# __author__ = "Shyama P"
-# __version__ = "1.0"
-# __email__ = "183079031@iitb.ac.in"
-# __status__ = "Development"
+
 # ---------------------------------------------------------------#
 
 # main.py contains the code for initializing and running the code for GUI
